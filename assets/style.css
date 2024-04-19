@@ -1,0 +1,94 @@
+body{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+h1{
+    font-size: 45px;
+}
+
+.nav{
+    background-color: rgba(102, 94, 94, 0.849);
+}
+
+
+.title{
+    padding-left: 25px;
+}
+
+.main{
+    margin-left:20%;
+    
+}
+
+#data-collect{
+    background-color: rgba(161, 240, 223, 0.801);
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
+
+.graph-body{
+    margin-left: 2%;
+    background-color: rgba(138, 46, 46, 0.466);
+}
+
+
+#upload-data{
+    margin-top: 1%;
+    margin-left: 40px;
+}
+
+.updata{
+color: black;
+font-weight: bold;
+background-color: aliceblue;
+cursor: pointer;
+}
+
+.updata:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgba(200, 225, 247, 0.822);
+}
+
+#submit-button{
+    margin-left: 46%;
+    margin-top: 1%;
+    height: 35px;
+    width: 90px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.nav-inner{
+    padding-left: 2%;
+    }
+
+.tog,.itog{
+    display: flex;
+    height: 6%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.itog{
+    margin-left: 1%;
+}
+
+#elbow{
+    width: 95%;
+    margin-left: 2%;
+}
+
+.lower-div{
+    height: 400px;
+    width: 95%;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+#silo{
+    margin-left: 2%;
+    margin-top: 1%;
+    width: 95%;
+}
