@@ -13,6 +13,7 @@ import pickle
 
 
 App=Dash()
+server=App.server
 
 App.title="Customer Segmentation"
 
