@@ -52,7 +52,7 @@ def process(df):
     for col in rfm.columns[1:]:
         rfm[col]=iqr(rfm[col])
 
-    scaler=pickle.load(open("/home/aryan/Development/Data_Science/ML_DL_project/Customer_segmentation/Model/scaler.pkl",'rb'))
+    scaler=pickle.load(open("Model/scaler.pkl",'rb'))
     for col in rfm.columns[1:]:
         rfm[col]=scaler.fit_transform(rfm[col].values.reshape(-1,1))
 
